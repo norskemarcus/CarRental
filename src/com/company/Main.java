@@ -24,16 +24,17 @@ public class Main {
         garage.addCar(mazda);
         garage.addCar(vw);
 
+        // Bruge en midlertidig arrayList for at loope igennem for at printe listen pent
         ArrayList<Bil> garagen;
         garagen = garage.getListeOverBiler();
 
         for(Bil bil : garagen){
             System.out.println(bil);
+            System.out.println("");
         }
 
         // Grøn afgift for hele garagen
-        System.out.println("");
-        System.out.print("Samlet grøn afgift for hele garagen:");
+        System.out.print("Samlet grøn afgift for hele garagen: ");
         System.out.println(garage.beregnGrønAfgiftForBilpark(garagen) + " DKK");
     }
 }

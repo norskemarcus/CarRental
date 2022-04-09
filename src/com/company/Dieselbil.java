@@ -64,8 +64,8 @@ public class Dieselbil extends Bil{
   public String toString() {
 
     return "Dieselbil: " + "reg. nr: " + regNr +
-        " mærke: " + mærke + " model: " + model +
-        " årgang: " + årgang + " antal døre: " + antalDøre +
-        " partikkelfilter: " + harPartikelfilter + ", kmPrL: " + kmPrL;
+        ", mærke: " + mærke + ", model: " + model +
+        ", årgang: " + årgang + ", antal døre: " + antalDøre +
+        ", partikelfilter: " + harPartikelfilter + ", kmPrL: " + kmPrL;
   }
 }

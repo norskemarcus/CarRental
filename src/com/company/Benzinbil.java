@@ -49,8 +49,8 @@ public class Benzinbil extends Bil {
   @Override
   public String toString() {
     return "Benzinbil: " + "reg. nr: " + regNr +
-        " mærke: " + mærke + " model: " + model +
-        " årgang: " + årgang + " antal døre: " + antalDøre +
-        " oktantal: " + oktantal + ", kmPrL: " + kmPrL;
+        ", mærke: " + mærke + ", model: " + model +
+        ", årgang: " + årgang + ", antal døre: " + antalDøre +
+        ", oktantal: " + oktantal + ", kmPrL: " + kmPrL;
   }
 }
